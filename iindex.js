@@ -1,5 +1,4 @@
 var readlineSync = require('readline-sync');
-
 var score = 0;
 
 var userName = readlineSync.question("Enter your Good Name ");
@@ -52,6 +51,7 @@ for (var i=0; i<questionAnswer.length;i++)
     var currentQuestion = questionAnswer[i];
     play(currentQuestion.question,currentQuestion.answer);
   }
+
 
 
 console.log("Thank you for attending Quiz");
